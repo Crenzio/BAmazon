@@ -32,7 +32,7 @@ function intro() {
         + "  DAVE: S'up? \n\n"
         + "  FRANK: The two of us sell 'completely legitimate' artistic and entertainment products, ranging from books and movies which 'fell off a truck'... \n ...to one-of-a-kind masterpieces which were 'acquired' for us by our highly reputable 'art thieves.' \n\n"
         + "  DAVE: Dammit Frank! You were supposed to say 'associates' instead of 'art thieves.' C'mon man, we rehearsed this! \n\n"
-        + "  FRANK: Right, right. Our 'aassociates.' That's who stole the paintings for us. \n\n"
+        + "  FRANK: Right, right. Our 'aassociates.' That's who 'stole' the paintings for us. \n\n"
         + "  DAVE: Don't say 'stole' you stupid fu- \n\n"
         + "  FRANK: Look, I'm trying, ok? Stop yelling at me! \n")
     inquirer
@@ -47,7 +47,7 @@ function intro() {
             ]
         })
         .then(function () {
-            console.log("\n" + "  DAVE: Oh, yes. Sorry about that. \n")
+            console.log("\n" + "  DAVE: Oh, ah. Sorry about that. \n")
             start();
         });
 }
