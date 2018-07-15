@@ -1,3 +1,6 @@
+var dotenv = require('dotenv');
+require('dotenv').config(); 
+
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
@@ -7,7 +10,7 @@ var connection = mysql.createConnection({
 
     user: "Root",
 
-    password: "",
+    password: process.env.THISPASSWORD,
     database: "bamazon"
 });
 
@@ -17,7 +20,7 @@ var connection2 = mysql.createConnection({
 
     user: "Root",
 
-    password: "Carbuncle997",
+    password: process.env.THISPASSWORD,
     database: "bamazon"
 });
 
